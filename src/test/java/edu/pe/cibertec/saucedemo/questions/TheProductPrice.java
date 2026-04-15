@@ -5,6 +5,8 @@ import net.serenitybdd.screenplay.Question;
 import net.serenitybdd.screenplay.questions.Text;
 import net.serenitybdd.screenplay.targets.Target;
 
+import java.time.Duration;
+
 public class TheProductPrice {
 
     public static Question<String> ofFirstItem(){
