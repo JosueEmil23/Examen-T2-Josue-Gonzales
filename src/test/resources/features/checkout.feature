@@ -9,7 +9,7 @@ Feature: Checkout process on SauceDemo
     And she adds the product "Sauce Labs Backpack" to the cart
     And she adds the product "Sauce Labs Bike Light" to the cart
     And she proceeds to checkout with first name "Juan", last name "Perez" and postal code "15001"
-    And she verifies the order summary shows item total "$37.99"
+    And she verifies the order summary shows item total "$39.98"
     And she completes the order
     Then she should see the confirmation message "Thank you for your order!"
 
