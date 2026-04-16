@@ -4,9 +4,11 @@ package edu.pe.cibertec.saucedemo.stepdefinitions;
 import edu.pe.cibertec.saucedemo.questions.TheProductDetail;
 import edu.pe.cibertec.saucedemo.questions.TheProductPrice;
 import edu.pe.cibertec.saucedemo.tasks.ClickOnProduct;
+import edu.pe.cibertec.saucedemo.tasks.LoginAs;
 import edu.pe.cibertec.saucedemo.tasks.SortProducts;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import net.serenitybdd.screenplay.actors.OnStage;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
